@@ -190,7 +190,7 @@ p {
   z-index: 100;
   position: fixed;
   right: 25px;
-  top: 30px;
+  top: 19px;
 }
 
 .theme-switch-wrapper span {
@@ -257,4 +257,16 @@ input:checked + .slider::before {
 .fas {
   font-size: 30px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
